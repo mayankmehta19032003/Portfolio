@@ -1,8 +1,53 @@
-# React + Vite
+# My Portfolio
+![Screenshot 2025-02-09 194755](https://github.com/user-attachments/assets/259e2561-3d68-4d50-9da6-486eaea78245)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Live Demo:** [mayankmehta.vercel.app](https://mayankmehta.vercel.app/)
 
-Currently, two official plugins are available:
+## 📜 About
+This is my personal portfolio website built with **React.js** and **Tailwind CSS** to showcase my skills, projects, and experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Responsive design 🌐
+- Dark mode support 🌙
+- Contact options via email, phone, and WhatsApp 📩
+
+## 📦 Dependencies
+To run this project locally, install the following dependencies:
+
+```bash
+npm install
+```
+
+### Main dependencies:
+- **React**
+- **Tailwind CSS**
+- **Lucide-react** (for icons)
+
+## 🚀 Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/portfolio.git
+   cd portfolio
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open `http://localhost:5173/` in your browser.
+
+## 📬 Contact
+If you have any questions, feel free to reach out:
+- Email: [mayankmehta880@gmail.com](mailto:mayankmehta880@gmail.com)
+- LinkedIn: [Mayank Mehta](https://www.linkedin.com/in/mayank-mehta880/)
+- Portfolio: [mayankmehta.vercel.app](https://mayankmehta.vercel.app/)
+
+---
+Made with ❤️ by **Mayank Mehta**
+
+
+
+
