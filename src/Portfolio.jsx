@@ -764,7 +764,7 @@ const Portfolio = () => {
               <div className="w-48 h-48 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 p-1">
                 <div className="w-full h-full rounded-full border-4 border-white dark:border-gray-800 overflow-hidden">
                   <img
-                    src="src\assets\profile-photo.png"
+                    src="/profile-photo.png"
                     alt=""
                     className="w-full h-full object-cover"
                   />
