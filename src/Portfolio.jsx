@@ -68,10 +68,11 @@ const Portfolio = () => {
   };
 
   const openResume = () => {
-    window.open("https://drive.google.com/file/d/1_SaLYzlMTr8fF-__IrFOO1R9KF_8--e7/view?usp=drive_link", "_blank");
+    window.open(
+      "https://drive.google.com/file/d/1_SaLYzlMTr8fF-__IrFOO1R9KF_8--e7/view?usp=drive_link",
+      "_blank"
+    );
   };
-  
-  
 
   const navItems = [
     { name: "Home", href: "#home" },
@@ -642,8 +643,8 @@ const Portfolio = () => {
         "A web application providing exciting tour packages for nature enthusiasts. Built with HTML5, CSS3, and Sass.",
       technologies: ["HTML", "CSS", "Sass", "Responsive Web Design"],
       duration: "December 2024 - January 2025",
-      link: "#",
-      github: "#",
+      link: "https://greenify-pink-three.vercel.app/",
+      github: "https://github.com/mayankmehta19032003/Greenify",
       image: "/project-greenify.png",
     },
     {
@@ -652,8 +653,8 @@ const Portfolio = () => {
         "A cryptocurrency search app allowing users to explore and track real-time data on any cryptocurrency.",
       technologies: ["React.js", "CSS", "API"],
       duration: "August 2024 - September 2024",
-      link: "#",
-      github: "#",
+      link: "https://cryptoplace-rose.vercel.app/",
+      github: "https://github.com/mayankmehta19032003/Cryptoplace",
       image: "/project-crypto.png",
     },
     {
@@ -662,8 +663,8 @@ const Portfolio = () => {
         "Personal portfolio website built with React and Three.js, responsive and hosted on Vercel.",
       technologies: ["React.js", "Three.js", "CSS"],
       duration: "September 2023 - October 2023",
-      link: "#",
-      github: "#",
+      link: "https://mayankfolio3d.vercel.app/",
+      github: "https://github.com/mayankmehta19032003/My-Portfolio-Website",
       image: "/project-portfolio.png",
     },
     {
@@ -671,8 +672,8 @@ const Portfolio = () => {
       description: "A GEMINI AI Clone built with React and Gemini API.",
       technologies: ["React.js", "Three.js", "Gemini API", "CSS"],
       duration: "June 2024 - July 2024",
-      link: "#",
-      github: "#",
+      link: "https://gemini-clone-omega-three.vercel.app/",
+      github: "https://github.com/mayankmehta19032003/gemini-clone",
       image: "/project-gemini.png",
     },
   ];
@@ -762,7 +763,11 @@ const Portfolio = () => {
             <div className="relative mb-8">
               <div className="w-48 h-48 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 p-1">
                 <div className="w-full h-full rounded-full border-4 border-white dark:border-gray-800 overflow-hidden">
-                  <img src="src\assets\profile-photo.png" alt="" className="w-full h-full object-cover" />
+                  <img
+                    src="src\assets\profile-photo.png"
+                    alt=""
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -778,13 +783,13 @@ const Portfolio = () => {
 
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/mayankmehta19032003"  target="_blank"
                 className="transform hover:scale-110 transition-transform"
               >
                 <Github className="w-6 h-6 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400" />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/mayank-mehta880/"  target="_blank"
                 className="transform hover:scale-110 transition-transform"
               >
                 <Linkedin className="w-6 h-6 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400" />
@@ -927,30 +932,39 @@ const Portfolio = () => {
 
       {/* Education Section */}
       <section id="education" className="bg-white dark:bg-gray-800 py-20">
-  <div className="max-w-6xl mx-auto px-4">
-    <h2 className="text-3xl font-bold text-center mb-12">
-      📚 Academic Background
-    </h2>
-    <div className="space-y-8">
-      <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md border-l-8 border-blue-600">
-        <h3 className="text-xl font-semibold mb-2">BCA (Computers)</h3>
-        <p className="text-gray-600 dark:text-gray-400">Kota University, Kota</p>
-        <p className="text-gray-600 dark:text-gray-400">Score: 72% (2025)</p>
-      </div>
-      <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md border-l-8 border-blue-600">
-        <h3 className="text-xl font-semibold mb-2">Class XII</h3>
-        <p className="text-gray-600 dark:text-gray-400">Rajasthan Board</p>
-        <p className="text-gray-600 dark:text-gray-400">Score: 92.4% (2021)</p>
-      </div>
-      <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md border-l-8 border-blue-600">
-        <h3 className="text-xl font-semibold mb-2">Class X</h3>
-        <p className="text-gray-600 dark:text-gray-400">CBSE</p>
-        <p className="text-gray-600 dark:text-gray-400">Score: 83% (2019)</p>
-      </div>
-    </div>
-  </div>
-</section>
-
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">
+            📚 Academic Background
+          </h2>
+          <div className="space-y-8">
+            <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md border-l-8 border-blue-600">
+              <h3 className="text-xl font-semibold mb-2">BCA (Computers)</h3>
+              <p className="text-gray-600 dark:text-gray-400">
+                Kota University, Kota
+              </p>
+              <p className="text-gray-600 dark:text-gray-400">
+                Score: 72% (2025)
+              </p>
+            </div>
+            <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md border-l-8 border-blue-600">
+              <h3 className="text-xl font-semibold mb-2">Class XII</h3>
+              <p className="text-gray-600 dark:text-gray-400">
+                Rajasthan Board
+              </p>
+              <p className="text-gray-600 dark:text-gray-400">
+                Score: 92.4% (2021)
+              </p>
+            </div>
+            <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md border-l-8 border-blue-600">
+              <h3 className="text-xl font-semibold mb-2">Class X</h3>
+              <p className="text-gray-600 dark:text-gray-400">CBSE</p>
+              <p className="text-gray-600 dark:text-gray-400">
+                Score: 83% (2019)
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Contact Section */}
       <section id="contact" className="bg-gray-100 dark:bg-gray-900 py-20">
