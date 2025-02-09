@@ -968,43 +968,57 @@ const Portfolio = () => {
 
       {/* Contact Section */}
       <section id="contact" className="bg-gray-100 dark:bg-gray-900 py-20">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Get In Touch</h2>
-          <div className="max-w-2xl mx-auto">
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-md">
-              <form className="space-y-6">
-                <div>
-                  <input
-                    type="text"
-                    placeholder="Your Name"
-                    className="w-full p-3 border dark:border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 dark:focus:border-blue-400 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                  />
-                </div>
-                <div>
-                  <input
-                    type="email"
-                    placeholder="Your Email"
-                    className="w-full p-3 border dark:border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 dark:focus:border-blue-400 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                  />
-                </div>
-                <div>
-                  <textarea
-                    placeholder="Your Message"
-                    rows="4"
-                    className="w-full p-3 border dark:border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 dark:focus:border-blue-400 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                  ></textarea>
-                </div>
-                <button
-                  type="submit"
-                  className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-colors dark:bg-blue-500 dark:hover:bg-blue-600"
-                >
-                  Send Message
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="max-w-6xl mx-auto px-4 text-center">
+    <h2 className="text-3xl font-bold mb-8">Get In Touch</h2>
+    <p className="text-gray-600 dark:text-gray-400 mb-6">
+      Feel free to reach out via WhatsApp, call, or email.
+    </p>
+
+    {/* Contact Cards */}
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {/* WhatsApp Card */}
+      <a
+        href="https://wa.me/917665677520?text=Hello%20Mayank,%20I%20want%20to%20connect!"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex flex-col items-center hover:shadow-lg transition transform hover:scale-105"
+      >
+        <svg className="w-10 h-10 fill-current text-green-500 mb-3" viewBox="0 0 24 24">
+          <path d="M12 0C5.373 0 0 5.373 0 12c0 2.109.548 4.101 1.505 5.831L.07 23.546l5.883-1.436A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm-.44 3h.88c4.895 0 8.86 3.965 8.86 8.86s-3.965 8.86-8.86 8.86c-1.676 0-3.249-.476-4.623-1.32l-.352-.22-3.896.953.957-3.892-.229-.353A8.854 8.854 0 013.14 11.86C3.14 6.965 7.105 3 11.86 3zm-.488 3.5a.9.9 0 00-.702.36c-.41.493-.88 1.45-1.07 2.08-.21.678-.36 1.356-.15 1.784.216.438.828 1.33 1.009 1.52.18.19 1.86 2.23 4.057 3.154 2.196.923 2.446.92 2.911.87.465-.05 1.445-.59 1.646-1.159.201-.568.201-1.054.14-1.15-.062-.096-.23-.15-.48-.263s-1.47-.722-1.7-.806c-.23-.084-.4-.126-.57.127-.172.253-.656.806-.805.973-.15.168-.296.188-.547.063-.25-.124-1.057-.387-2.016-1.238-.743-.664-1.244-1.484-1.39-1.737-.146-.253-.016-.388.108-.511.102-.1.253-.263.38-.395.127-.132.169-.196.253-.326.084-.13.042-.254-.02-.357-.062-.103-.57-1.365-.777-1.87-.207-.504-.417-.526-.576-.534z"/>
+        </svg>
+        <p className="text-gray-700 dark:text-gray-300">Chat on WhatsApp</p>
+        <span className="mt-2 text-green-600 dark:text-green-400 font-semibold">+91 76656 77520</span>
+      </a>
+
+      {/* Call Card */}
+      <a
+        href="tel:+917665677520"
+        className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex flex-col items-center hover:shadow-lg transition transform hover:scale-105"
+      >
+        <svg className="w-10 h-10 text-blue-500 mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <path d="M22 16.92V19a2 2 0 0 1-2.18 2A18.81 18.81 0 0 1 3 5.18 2 2 0 0 1 5 3h2.09a2 2 0 0 1 2 .94l1.38 2.31a2 2 0 0 1-.45 2.55l-.91.91a16 16 0 0 0 6.37 6.37l.91-.91a2 2 0 0 1 2.55-.45l2.31 1.38a2 2 0 0 1 .94 2z"></path>
+        </svg>
+        <p className="text-gray-700 dark:text-gray-300">Call Now</p>
+        <span className="mt-2 text-blue-600 dark:text-blue-400 font-semibold">+91 76656 77520</span>
+      </a>
+
+      {/* Email Card */}
+      <a
+        href="mailto:mayankmehta880@gmail.com"
+        className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex flex-col items-center hover:shadow-lg transition transform hover:scale-105"
+      >
+        <svg className="w-10 h-10 text-red-500 mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1 0 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1 0-2 2-2z"></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+        <p className="text-gray-700 dark:text-gray-300">Email Me</p>
+        <span className="mt-2 text-red-600 dark:text-red-400 font-semibold">mayankmehta880@gmail.com</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
 
       {/* Footer */}
       <footer className="bg-white dark:bg-gray-800 border-t dark:border-gray-700">
