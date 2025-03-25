@@ -638,6 +638,16 @@ const Portfolio = () => {
 
   const projects = [
     {
+      title: "Tomato - Food Delivery App",
+      description:
+        "A web application providing exciting tour packages for nature enthusiasts. Built with HTML5, CSS3, and Sass.",
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB","JWT"],
+      duration: "December 2024 - January 2025",
+      link: "https://food-del-frontend-dy2n.onrender.com/",
+      github: "https://github.com/mayankmehta19032003/food-del",
+      image: "/project-greenify.png",
+    },
+    {
       title: "Greenify",
       description:
         "A web application providing exciting tour packages for nature enthusiasts. Built with HTML5, CSS3, and Sass.",
