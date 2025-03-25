@@ -645,7 +645,7 @@ const Portfolio = () => {
       duration: "December 2024 - January 2025",
       link: "https://food-del-frontend-dy2n.onrender.com/",
       github: "https://github.com/mayankmehta19032003/food-del",
-      image: "/project-greenify.png",
+      image: "/project-Tomato-food-del.png",
     },
     {
       title: "Greenify",
