@@ -648,16 +648,6 @@ const Portfolio = () => {
       image: "/project-Tomato-food-del.png",
     },
     {
-      title: "Greenify",
-      description:
-        "A web application providing exciting tour packages for nature enthusiasts. Built with HTML5, CSS3, and Sass.",
-      technologies: ["HTML", "CSS", "Sass", "Responsive Web Design"],
-      duration: "December 2024 - January 2025",
-      link: "https://greenify-pink-three.vercel.app/",
-      github: "https://github.com/mayankmehta19032003/Greenify",
-      image: "/project-greenify.png",
-    },
-    {
       title: "Cryptoplace",
       description:
         "A cryptocurrency search app allowing users to explore and track real-time data on any cryptocurrency.",
@@ -666,6 +656,15 @@ const Portfolio = () => {
       link: "https://cryptoplace-rose.vercel.app/",
       github: "https://github.com/mayankmehta19032003/Cryptoplace",
       image: "/project-crypto.png",
+    },
+    {
+      title: "Gemini Clone",
+      description: "A GEMINI AI Clone built with React and Gemini API.",
+      technologies: ["React.js", "Three.js", "Gemini API", "CSS"],
+      duration: "June 2024 - July 2024",
+      link: "https://gemini-clone-omega-three.vercel.app/",
+      github: "https://github.com/mayankmehta19032003/gemini-clone",
+      image: "/project-gemini.png",
     },
     {
       title: "Portfolio Website",
@@ -678,13 +677,14 @@ const Portfolio = () => {
       image: "/project-portfolio.png",
     },
     {
-      title: "Gemini Clone",
-      description: "A GEMINI AI Clone built with React and Gemini API.",
-      technologies: ["React.js", "Three.js", "Gemini API", "CSS"],
-      duration: "June 2024 - July 2024",
-      link: "https://gemini-clone-omega-three.vercel.app/",
-      github: "https://github.com/mayankmehta19032003/gemini-clone",
-      image: "/project-gemini.png",
+      title: "Greenify",
+      description:
+        "A web application providing exciting tour packages for nature enthusiasts. Built with HTML5, CSS3, and Sass.",
+      technologies: ["HTML", "CSS", "Sass", "Responsive Web Design"],
+      duration: "December 2024 - January 2025",
+      link: "https://greenify-pink-three.vercel.app/",
+      github: "https://github.com/mayankmehta19032003/Greenify",
+      image: "/project-greenify.png",
     },
   ];
 
