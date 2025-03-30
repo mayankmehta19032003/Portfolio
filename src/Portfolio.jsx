@@ -648,6 +648,16 @@ const Portfolio = () => {
       image: "/project-Tomato-food-del.png",
     },
     {
+      title: "Quick Link Preview - (NPM package)",
+      description:
+        "A React component for generating quick and interactive link previews effortlessly. Built with Framer Motion and Microlink API.",
+      technologies: ["NPM","Javascript", "Framer-motion", "Microlink API"],
+      duration: "August 2024 - September 2024",
+      link: "https://www.npmjs.com/package/quick-link-preview?activeTab=readme",
+      github: "https://github.com/mayankmehta19032003/link-preview-npm",
+      image: "/npm-package.png",
+    },
+    {
       title: "Cryptoplace",
       description:
         "A cryptocurrency search app allowing users to explore and track real-time data on any cryptocurrency.",
