@@ -69,7 +69,7 @@ const Portfolio = () => {
 
   const openResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1_SaLYzlMTr8fF-__IrFOO1R9KF_8--e7/view?usp=drive_link",
+      "https://drive.google.com/file/d/1f1u5jk__-SvJzl5KhUWhhcvg8AqbZKXx/view?usp=drive_link",
       "_blank"
     );
   };
