@@ -658,6 +658,16 @@ const Portfolio = () => {
       image: "/npm-package.png",
     },
     {
+      title: "Tech Flip",
+      description:
+        "An interactive memory-matching game with tech stack icons, efficient state management, and a responsive UI using CSS.",
+      technologies: ["React.js", "CSS", "Node.js"],
+      duration: "August 2024 - September 2024",
+      link: "https://tech-flip-mayank-mehtas-projects.vercel.app/",
+      github: "https://github.com/mayankmehta19032003/Tech-flip",
+      image: "/project-tech-flip.png",
+    },
+    {
       title: "Cryptoplace",
       description:
         "A cryptocurrency search app allowing users to explore and track real-time data on any cryptocurrency.",
@@ -670,7 +680,7 @@ const Portfolio = () => {
     {
       title: "Gemini Clone",
       description: "A GEMINI AI Clone built with React and Gemini API.",
-      technologies: ["React.js", "Three.js", "Gemini API", "CSS"],
+      technologies: ["React.js", "Tailwind CSS", "Gemini API"],
       duration: "June 2024 - July 2024",
       link: "https://gemini-clone-omega-three.vercel.app/",
       github: "https://github.com/mayankmehta19032003/gemini-clone",
